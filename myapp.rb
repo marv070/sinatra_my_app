@@ -25,3 +25,11 @@ end
 get '/details' do
 	erb :username
 end
+post '/details' do
+	erb :age, :locals => {:name => params['user']}
+end
+
+
+post '/age' do
+	" In 10 years you will be: #{params[:howold].to_i + 10}."
+end
