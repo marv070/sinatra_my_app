@@ -1,6 +1,9 @@
 require 'sinatra'
 
-get '/'  do
-	'Hello world!'
-	
+get "/"  do
+	"My first web app"
 end
+
+# get 'Nemacolin' do
+# 	'Mined Minds'
+# end
